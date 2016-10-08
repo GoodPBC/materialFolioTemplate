@@ -1,9 +1,37 @@
-.parallax-container {
-      height: "your height here";
-    }
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
 
-li.btn-animate {
-	background-image: url("assets/images/carnivalWarp.jpg");
+main {
+    flex: 1 0 auto;
+}
+h1 {
+	font-weight: 900;
+}
+.center brand-logo {
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.parallax-container {
+      height: 500px;
+}
+#navIcon {
+	width: 50%; 
+	height: 100%;  
+	border-radius: 50%;
+}
+#navIcon.hoverable:hover{
+	transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgb(76, 175, 80),0 6px 20px rgb(76, 175, 80);
+
+}
+nav ul li img:hover {
+   background-color: ;
+   border-radius: 50%;
+   padding: 5px;
 }
 
 /*=============Image flip animation================*/
@@ -59,4 +87,13 @@ img.main-image {
 	transform: rotateY(180deg);
 }
 
-/* end */
+/* end pic animation*/
+
+
+/*begin footer*/
+
+footer.page-footer {
+	margin-top: 0px;
+}
+
+/*end footer*/

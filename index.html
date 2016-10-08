@@ -1,32 +1,47 @@
 <!DOCTYPE html>
 <html>
-   <head>
+  <head>
       <title>Joseph Pulaski</title>
       <!-- viewport -->
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <!-- material icons -->
-	  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	  <!-- tpye animation  -->
+	  <script src="assets/javascript/typed.min.js"></script>
+		<!-- material icons -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:700|Raleway:300,400" rel="stylesheet">
+		<!-- font awesome -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">	  
 	  <!-- materialize min css -->
 	  <link rel="stylesheet" href="assets/materialize/css/materialize.min.css">
 	  <!-- style.css -->
 	  <link rel="stylesheet" href="assets/css/style.css">
   </head>
+
   <body>
-  
   	<!-- nav -->
-  	<nav>
+  	<nav class="grey darken-3">
 	    <div class="nav-wrapper container">
-	      <a href="#!" class="brand-logo">Logo</a>
+	      <a href="#!" class=" brand-logo green-text">Joseph Pulaski</a>
 	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
 	      <ul class="right hide-on-med-and-down">
-	         <li class="btn-animate"><a class="waves-effect waves-light btn">A button</a></li>
-	         <li><a href="sass.html">Sass</a></li>
+	        <li> 
+	         	<img src="assets/images/jpIcon.png" class="responsive-img hoverable waves-effect" id="navIcon">
+	        </li>
+	        <li>
+	          <img src="assets/images/linkInGreen.png" class="responsive-img hoverable waves-effect" id="navIcon">
+	        </li>
+	        <li>
+	          <img src="assets/images/octoCat.png" class="responsive-img hoverable waves-effect center-align" id="navIcon">
+	        </li>
 	      </ul>
-	      <ul class="side-nav" id="mobile-demo">
-	        <li><a href="sass.html">Sass</a></li>
-	        <li><a href="badges.html">Components</a></li>
-	        <li><a href="collapsible.html">Javascript</a></li>
-	        <li><a href="mobile.html">Mobile</a></li>
+
+	      <ul class="side-nav" id="mobile-demo">    
+	        <li><a href="badges.html">Projects</a></li>
+	        <li><a href="collapsible.html">Github</a></li>
+	        <li><a href="mobile.html">COntact</a></li>
 	      </ul>
 	    </div>
 	  </nav>	<!-- end nav -->
@@ -36,7 +51,7 @@
 		<!-- begin pic-bio section  -->
 		<section class="pic-bio">
 			<div class="parallax-container">
-		    <div class="parallax"><img src="assets/images/rainbowHands.jpg"></div>
+		    <div class="parallax"><img src="assets/images/happyBook.jpg"></div>
 		  </div>
 		  <!-- About Section -->
 		  <div class="section white">
@@ -47,7 +62,7 @@
 		          <div class="row valign-wrapper">
 		            <div class="col s12">
 		              <!-- portfolio image card with css image animation -->
-		              <div class="flip-container left" ontouchstart="this.classList.toggle('hover');">
+		              <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
 			    					<div class="flipper">
 				 							<div class="front">
 				  							<img class="main-image" src="https://raw.githubusercontent.com/GoodPBC/Week-1-HW-Portfolio/master/assets/images/Profilepic2.JPG">
@@ -141,9 +156,24 @@
   </main>
    
 
-   <footer>
-   	<!-- footer and footer content will go here -->
-   </footer>   
+    <footer class="page-footer">
+      <div class="row">
+      	<div class="container">
+          <div class="col l6 s12">
+            <h5 class="white-text">Footer Content</h5>
+            <!-- footer and footer content will go here -->
+            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+      	<div class="container">
+      		<p>© 2016 Copyright Text</p>
+      		<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      	</div>
+    	</div>
+    </footer> 
+      
 
 		<!-- Scripts -->
 	 	<!-- jQuery -->
